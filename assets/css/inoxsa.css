@@ -1,0 +1,29 @@
+.espacio {
+    padding-right: 50px;
+}
+
+.menuPrincipal {
+    font-family: "Open Sans";
+    color: black;
+    font-size: larger;
+}
+
+.carrouselPrincipal {
+    height: auto;
+}
+
+.info {
+    font-family: "Open Sans";
+    color: black;
+    font-size: large;
+    text-justify: auto;
+}
+.subtitulo {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: x-large;
+}
+.espacioFooter {
+    padding-top: 40px;
+    padding-left: 60px;
+}
