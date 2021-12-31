@@ -63,6 +63,14 @@
 .owl-theme .owl-nav.disabled + .owl-dots {
     margin-top: 0px;
 }
+.dropdown-menu{
+    background-color: #F9F9F9 !important;
+    font-family: "Open Sans" !important;
+}
+.dropdown-menu :hover{
+    background-color:gainsboro !important;
+    font-family: "Open Sans" !important;
+}
 
 
 
