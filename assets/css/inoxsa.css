@@ -1,3 +1,11 @@
+.body{
+    background-color: #F9F9F9 !important;
+    font-family: "Open Sans" !important;
+}
+.span1 {
+    font-family: "Open Sans" !important;
+    justify-content: center;
+}
 .espacio {
     padding-right: 50px;
 }
@@ -27,3 +35,34 @@
     padding-top: 40px;
     padding-left: 60px;
 }
+
+#owl-carousel .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.owl-theme .owl-dots{
+    background: #F9F9F9 !important;  
+}
+.owl-theme .owl-dots .owl-dot span{
+    width:10px;
+    height:10px;
+    margin:5px 7px;
+    background: #32353a !important;
+    display:block;
+    -webkit-backface-visibility:visible;
+    -webkit-transition:opacity 200ms ease;
+    -moz-transition:opacity 200ms ease;
+    -ms-transition:opacity 200ms ease;
+    -o-transition:opacity 200ms ease;
+    transition:opacity 200ms ease;
+    -webkit-border-radius:30px;
+    -moz-border-radius:30px;
+    border-radius:30px;
+}
+.owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: 0px;
+}
+
+
+

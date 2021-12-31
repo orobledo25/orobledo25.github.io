@@ -6,6 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>INOXSA | Soluciones Industriales</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/all.js"></script>
+    <script src="./assets/js/loader.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.green.min.css"
+        integrity="sha512-C8Movfk6DU/H5PzarG0+Dv9MA9IZzvmQpO/3cIlGIflmtY3vIud07myMu4M/NTPJl8jmZtt/4mC9bAioMZBBdA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="./assets/css/inoxsa.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -82,65 +101,40 @@
         </div>
     </header>
     <main>
-        <div class="container-fluid carrouselPrincipal">
-            <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="./images/image02.png" class="d-block w-100">
-                        <div class="container">
-                            <div class="carousel-caption text-lg-center">
-                                <h4>Zaranda para seleccionado de Nuez</h4>
-                                <p>Hasta en 5 tamaños</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./images/image03.png" class="d-block w-100">
-                        <div class="container">
-                            <div class="carousel-caption text-lg-center">
-                                <h4>Asador en acero inoxidable</h4>
-                                <p>Con aislamiento térmico, emparrillado tradicional o argentino.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./images/image04.png" class="d-block w-100">
-                        <div class="container">
-                            <div class="carousel-caption text-lg-center">
-                                <h4>Tarja Industrial</h4>
-                                <p>De doble tina.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Anterior</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Siguiente</span>
-                </button>
+        <div class="owl-carousel owl-theme">
+            <div style="background-color: #F9F9F9; text-align: center;"><img src="./images/image02.png">
+                <span class="span1" style="font-size: x-large;">Zaranda para seleccionado de nuez</span>
+            </div>
+            <div style="background-color: #F9F9F9; text-align: center;"><img src="./images/image03.png">
+                <span class="span1" style="font-size: x-large;">Asador en acero inoxidable</span>
+            </div>
+            <div style="background-color: #F9F9F9; text-align: center;"><img src="./images/image04.png">
+                <span class="span1" style="font-size: x-large;">Tarja Industrial</span>
             </div>
         </div>
     </main>
+    <script type="text/javascript">
+        $('.owl-carousel').owlCarousel({
+            navigation: true, // Show next and prev buttons
+            slideSpeed: 300,
+            paginationSpeed: 400,
+            items: 1,
+            itemsDesktop: false,
+            itemsDesktopSmall: false,
+            itemsTablet: false,
+            itemsMobile: true,
+            responsiveClass: true
+        })
+    </script>
     <!-- Footer -->
     <footer class="bg-dark text-center text-white" style="height:auto;">
         <!-- Grid container -->
-        <div class="container">
+        <div class="container-fluid">
             <!-- Section: Links -->
             <!--Grid row-->
             <div class="row">
                 <!--Grid column-->
-                <div class="col-lg-4">
+                <div class="col-sm-4 col-lg-4">
                     <p>
                     <h5 class="text-uppercase"><img src="./images/logo-white.svg" style="color: white;" alt=""
                             width="160" height="80" class="d-inline-block align-text-top"></h5>
@@ -149,7 +143,7 @@
                     Cd. Delicias,Chihuahua
                     </p>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-sm-4 col-lg-4">
                     <p>
                     <h5>FABRICACION Y MAQUINADOS INDUSTRIALES INOXSA S DE RL DE CV</h5>
                     Siguenos en Facebook<br>
@@ -158,7 +152,7 @@
                         <i class="fab fa-facebook"></i></a>
                     </p>
                 </div>
-                <div class="col-lg-4 espacioFooter">
+                <div class="col-sm-4 col-lg-4">
                     <table class="text-white">
                         <tr>
                             <td>
@@ -202,14 +196,6 @@
         <!-- Grid container -->
     </footer>
     <!-- Footer -->
-    <script src="./assets/js/bootstrap.bundle.min.js"></script>
-    <script src="./assets/js/all.js"></script>
-    <script src="./assets/js/loader.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.min.js"
-        integrity="sha256-hlKLmzaRlE8SCJC1Kw8zoUbU8BxA+8kR3gseuKfMjxA=" crossorigin="anonymous"></script>
 </body>
 
 </html>
