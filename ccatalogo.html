@@ -36,66 +36,61 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
 
-<body>
-    <header>
+<body class="height:auto;">
+    <nav class="navbar navbar-expand-lg" style="background-color: #F9F9F9;" aria-label="INOXSA NAVBAR">
         <div class="container-fluid">
-            <nav class="navbar navbar-expand-lg" style="background-color: #e7e6e6;" aria-label="INOXSA NAVBAR">
-                <div class="container-xl">
-                    <a class="navbar-brand espacio" href="index.html">
-                        <img src="./images/logo.svg" alt="" width="160" height="80"
-                            class="d-inline-block align-text-top">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarINOXSA" aria-controls="navbarINOXSA" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"><i class="fas fa-bars"
-                                style="color:777; font-size:28px;"></i></span>
-                    </button>
+            <a class="navbar-brand espacio" href="index.html">
+                <img src="./images/logo.svg" alt="" width="220" height="80" class="d-inline-block align-text-top">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarINOXSA"
+                aria-controls="navbarINOXSA" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="fas fa-bars" style="color:777; font-size:28px;"></i></span>
+            </button>
 
-                    <div class="collapse navbar-collapse" id="navbarINOXSA">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item espacio">
-                                <a class="nav-link active menuPrincipal" aria-current="page"
-                                    href="index.html">Inicio</a>
+            <div class="collapse navbar-collapse" id="navbarINOXSA">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item espacio">
+                        <a class="nav-link active menuPrincipal" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown espacio">
+                        <a class="nav-link dropdown-toggle menuPrincipal" href="#" id="DDRamos"
+                            data-bs-toggle="dropdown" aria-expanded="false">Ramos</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown07XL">
+                            <li><a class="dropdown-item" href="rmaquiladora.html">Industria Maquiladora</a>
                             </li>
-                            <li class="nav-item dropdown espacio">
-                                <a class="nav-link dropdown-toggle menuPrincipal" href="#" id="DDRamos"
-                                    data-bs-toggle="dropdown" aria-expanded="false">Ramos</a>
-                                <ul class="dropdown-menu" aria-labelledby="dropdown07XL">
-                                    <li><a class="dropdown-item" href="rmaquiladora.html">Industria Maquiladora</a></li>
-                                    <li><a class="dropdown-item" href="ralimenticia.html">Industria Alimenticia</a></li>
-                                    <li><a class="dropdown-item" href="ragroindustria.html">Agroindustria</a></li>
-                                    <li><a class="dropdown-item" href="rminera.html">Industria Minera</a></li>
-                                    <li><a class="dropdown-item" href="rotros.html">Otros</a></li>
-                                </ul>
+                            <li><a class="dropdown-item" href="ralimenticia.html">Industria Alimenticia</a>
                             </li>
-                            <li class="nav-item dropdown espacio">
-                                <a class="nav-link dropdown-toggle menuPrincipal" href="#" id="DDRamos"
-                                    data-bs-toggle="dropdown" aria-expanded="false">Servicios</a>
-                                <ul class="dropdown-menu" aria-labelledby="DDRamos">
-                                    <li><a class="dropdown-item" href="scnc.html">Maquinado Convencional y CNC</a></li>
-                                    <li><a class="dropdown-item" href="ssoldadura.html">Servicios de Soldadura</a></li>
-                                    <li><a class="dropdown-item" href="sotros.html">Otros servicios</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item espacio">
-                                <a class="nav-link active menuPrincipal" aria-current="page" href="ccatalogo.html">Catalogo</a>
-                            </li>
-                            <li class="nav-item espacio">
-                                <a class="nav-link active menuPrincipal" aria-current="page" href="acercade.html">Acerca
-                                    de
-                                    Nosotros</a>
-                            </li>
-                            <li class="nav-item espacio">
-                                <a class="nav-link active menuPrincipal" aria-current="page" href="ccontacto.html">Contáctenos</a>
-                            </li>
+                            <li><a class="dropdown-item" href="ragroindustria.html">Agroindustria</a></li>
+                            <li><a class="dropdown-item" href="rminera.html">Industria Minera</a></li>
+                            <li><a class="dropdown-item" href="rotros.html">Otros</a></li>
                         </ul>
-                    </div>
-                </div>
-            </nav>
+                    </li>
+                    <li class="nav-item dropdown espacio">
+                        <a class="nav-link dropdown-toggle menuPrincipal" href="#" id="DDRamos"
+                            data-bs-toggle="dropdown" aria-expanded="false">Servicios</a>
+                        <ul class="dropdown-menu" aria-labelledby="DDRamos">
+                            <li><a class="dropdown-item" href="scnc.html">Maquinado Convencional y CNC</a></li>
+                            <li><a class="dropdown-item" href="ssoldadura.html">Servicios de Soldadura</a></li>
+                            <li><a class="dropdown-item" href="sotros.html">Otros servicios</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item espacio">
+                        <a class="nav-link active menuPrincipal" aria-current="page" href="ccatalogo.html">Catalogo</a>
+                    </li>
+                    <li class="nav-item espacio">
+                        <a class="nav-link active menuPrincipal" aria-current="page" href="acercade.html">Acerca
+                            de
+                            Nosotros</a>
+                    </li>
+                    <li class="nav-item espacio">
+                        <a class="nav-link active menuPrincipal" aria-current="page"
+                            href="ccontacto.html">Contáctenos</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </header>
-    <main>
+    </nav>
+    <header>
         <section class="py-5 text-center container-fluid" style="background-color: #F9F9F9;">
             <div class="row py-lg-5">
                 <div class="col-lg-6 col-md-8 mx-auto">
@@ -124,7 +119,7 @@
                                 <div class="card-body">
                                     <p class="card-text">
                                         - Fabricación en acero inoxidable tipo 304 en zonas de contacto
-                                          con el producto.<br>
+                                        con el producto.<br>
                                         - Polea transmisora de acero 1045.<br>
                                         - Freno con accionamiento de pedal<br>
                                         - Balata de asbesto.</p>
@@ -139,8 +134,9 @@
                                 </div>
                                 <div class="card-body">
                                     <p class="card-text">
-                                        - Fabricación en acero inoxidable tipo 304 en zonas de contacto con el producto.<br>
-                                        - Medidas de cribas de 9/16,  ½ , 3/8, 5/16, ¼ <br>
+                                        - Fabricación en acero inoxidable tipo 304 en zonas de contacto con el
+                                        producto.<br>
+                                        - Medidas de cribas de 9/16, ½ , 3/8, 5/16, ¼ <br>
                                         - Dimensiones aproximadas 2.5 m de alto x 1.5 m de ancho x 2.9 m de largo.<br>
                                         - No incluye vibrador de bola <br></p>
                                 </div>
@@ -155,8 +151,9 @@
                                 </div>
                                 <div class="card-body">
                                     <p class="card-text">
-                                        - Fabricación en acero inoxidable tipo 304 en zonas de contacto con el producto.<br>
-                                        - Vibrador excentrico  <br>
+                                        - Fabricación en acero inoxidable tipo 304 en zonas de contacto con el
+                                        producto.<br>
+                                        - Vibrador excentrico <br>
                                         - Motor de 1 Hp.</p>
                                 </div>
                             </div>
@@ -174,7 +171,7 @@
                                         - Cono y tolva de descarga en acero inoxidable tipo 304.<br>
                                         - Estructura y soportes de acero al carbón.<br>
                                         - Navajas de acero templado.<br>
-                                        - Motor-reductor  de 1 Hp con ratio de 60-1. <br></p>
+                                        - Motor-reductor de 1 Hp con ratio de 60-1. <br></p>
                                 </div>
                             </div>
                         </div>
@@ -187,7 +184,7 @@
                                 <div class="card-body">
                                     <p class="card-text">
                                         - Fabricación en acero inoxidable tipo 304 en zonas de contacto
-                                          con el producto.<br>
+                                        con el producto.<br>
                                         - Rodillos de acero inoxidable.<br>
                                         - Ajuste para el tamaño de salida del producto según sea la necesidad.<br>
                                         - Vibrador excentrico.<br>
@@ -204,7 +201,7 @@
                                 <div class="card-body">
                                     <p class="card-text">
                                         - Fabricación en acero inoxidable tipo 304 en zonas de contacto
-                                          con el producto.<br>
+                                        con el producto.<br>
                                         - Motor trifasico de 1 HP<br>
                                         - Dimensiones aproximadas 5 m de alto x 1 m de ancho x 1 m de largo.</p>
                                 </div>
@@ -273,7 +270,7 @@
                                 <div class="card-body">
                                     <p class="card-text">
                                         - Fabricación en acero inoxidable tipo 304 en zonas de contacto
-                                          con el producto.<br>
+                                        con el producto.<br>
                                         - Polea transmisora de acero 1045.<br>
                                         - Freno con accionamiento de pedal<br>
                                         - Balata de asbesto.</p>
@@ -286,7 +283,7 @@
                                 <div class="card-body">
                                     <p class="card-text">
                                         - Fabricación en acero inoxidable tipo 304 en zonas de contacto
-                                          con el producto.<br>
+                                        con el producto.<br>
                                         - Polea transmisora de acero 1045.<br>
                                         - Freno con accionamiento de pedal<br>
                                         - Balata de asbesto.</p>
@@ -299,7 +296,7 @@
                                 <div class="card-body">
                                     <p class="card-text">
                                         - Fabricación en acero inoxidable tipo 304 en zonas de contacto
-                                          con el producto.<br>
+                                        con el producto.<br>
                                         - Polea transmisora de acero 1045.<br>
                                         - Freno con accionamiento de pedal<br>
                                         - Balata de asbesto.</p>
@@ -316,7 +313,7 @@
                                 <div class="card-body">
                                     <p class="card-text">
                                         - Fabricación en acero inoxidable tipo 304 en zonas de contacto
-                                          con el producto.<br>
+                                        con el producto.<br>
                                         - Polea transmisora de acero 1045.<br>
                                         - Freno con accionamiento de pedal<br>
                                         - Balata de asbesto.</p>
@@ -329,7 +326,7 @@
                                 <div class="card-body">
                                     <p class="card-text">
                                         - Fabricación en acero inoxidable tipo 304 en zonas de contacto
-                                          con el producto.<br>
+                                        con el producto.<br>
                                         - Polea transmisora de acero 1045.<br>
                                         - Freno con accionamiento de pedal<br>
                                         - Balata de asbesto.</p>
@@ -342,7 +339,7 @@
                                 <div class="card-body">
                                     <p class="card-text">
                                         - Fabricación en acero inoxidable tipo 304 en zonas de contacto
-                                          con el producto.<br>
+                                        con el producto.<br>
                                         - Polea transmisora de acero 1045.<br>
                                         - Freno con accionamiento de pedal<br>
                                         - Balata de asbesto.</p>
@@ -353,77 +350,63 @@
                 </div>
             </div>
         </div>
-        <!-- Footer -->
-        <footer class="bg-dark text-center text-white" style="height:auto;">
-            <!-- Grid container -->
-            <div class="container-fluid">
-                <!-- Section: Links -->
-                <!--Grid row-->
-                <div class="row">
-                    <!--Grid column-->
-                    <div class="col-sm-4 col-lg-4">
-                        <p>
-                        <h5 class="text-uppercase"><img src="./images/logo-white.svg" style="color: white;" alt=""
-                                width="160" height="80" class="d-inline-block align-text-top"></h5>
-                        Ave. Fernando Baeza #12 SUR<br>
+    </header>
+    <footer style="background-color: #2e2e2e;">
+        <div class="container-fluid p-4">
+            <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <h5 class="mb-3" style="letter-spacing: 2px; color: #fafafa;"><img src="./images/logo-white.svg"
+                            style="color: white;" alt="" width="160" height="80" class="d-inline-block align-text-top">
+                    </h5>
+                    <p class="infoFooter">
+                        Ave. Fernando Baeza #12 Sur<br>
                         Col. Primero de Mayo<br>
                         Cd. Delicias,Chihuahua
-                        </p>
-                    </div>
-                    <div class="col-sm-4 col-lg-4">
-                        <p>
-                        <h5>FABRICACION Y MAQUINADOS INDUSTRIALES INOXSA S DE RL DE CV</h5>
-                        Siguenos en Facebook<br>
-                        <a class="btn btn-outline-light btn-floating m-1"
-                            href="https://www.facebook.com/Inoxsa-Soluciones-Industriales-543501629140008/" role="button">
-                            <i class="fab fa-facebook"></i></a>
-                        </p>
-                    </div>
-                    <div class="col-sm-4 col-lg-4 espacioFooter">
-                        <table class="text-white">
-                            <tr>
-                                <td>
-                                    <a class="btn btn-outline-light btn-floating m-1"
-                                        href="https://www.facebook.com/Inoxsa-Soluciones-Industriales-543501629140008/"
-                                        role="button">
-                                        <i class="far fa-envelope"></i></a>
-                                </td>
-                                <td>
-                                    ventas@industrialinoxsa.com.mx
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <a class="btn btn-outline-light btn-floating m-1"
-                                        href="https://www.facebook.com/Inoxsa-Soluciones-Industriales-543501629140008/"
-                                        role="button">
-                                        <i class="fas fa-phone"></i></a>
-                                </td>
-                                <td>
-                                    6394740670
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <a class="btn btn-outline-light btn-floating m-1"
-                                        href="https://www.facebook.com/Inoxsa-Soluciones-Industriales-543501629140008/"
-                                        role="button">
-                                        <i class="fab fa-whatsapp"></i></a>
-                                </td>
-                                <td>
-                                    6394719310
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                    <!--Grid column-->
+                    </p>
                 </div>
-                <!--Grid row-->
+                <div class="col-lg-4 col-md-4">
+                    <h5 class="mb-3" style="letter-spacing: 2px; color: #ffffff;"><strong>Contactanos</strong></h5>
+                    <ul class="list-unstyled mb-0 infoFooter" style="text-decoration: none !important;">
+                        <a class="btn btn-outline-light btn-floating m-1"
+                            href="https://www.facebook.com/Inoxsa-Soluciones-Industriales-543501629140008/"
+                            role="button">
+                            <i class="fab fa-facebook"></i></a>
+                        <li class="mb-1">
+                            <a href="#" style="color: #fafafa;"><i class="fas fa-phone"></i></a> 6394740670</a>
+                        </li>
+                        <li class="mb-1">
+                            <a href="#" style="color: #fafafa;"><i class="fab fa-whatsapp"></i></a> 6391481549</a>
+                        </li>
+                        <li class="mb-1">
+                            <a href="#" style="color: #fafafa;"><i class="far fa-envelope"></i></a>
+                            ventas@industrialinoxsa.com.mx</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <h5 class="mb-1" style="letter-spacing: 2px; color: #fafafa;"><strong>Horario de Apertur</strong>a
+                    </h5>
+                    <table class="table" style="color: #fafafa; border-color: #fafafa;">
+                        <tbody>
+                            <tr>
+                                <td>Lunes - Viernes:</td>
+                                <td>8:00 - 13:00<br>
+                                    14:00 - 18:00</td>
+                            </tr>
+                            <tr>
+                                <td>Sabado:</td>
+                                <td>8:00 - 13:00</td>
+                            </tr>
+                            <tr>
+                                <td>Domingo:</td>
+                                <td>CERRADO</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
-            <!-- Grid container -->
-        </footer>
-        <!-- Footer -->
-    </main>
+        </div>
+    </footer>
 </body>
 
 </html>

@@ -16,11 +16,7 @@
 .menuPrincipal {
     font-family: "Open Sans";
     color: black;
-    font-size: larger;
-}
-
-.carrouselPrincipal {
-    height: auto;
+    font-size: 17px;
 }
 
 .info {
@@ -29,51 +25,102 @@
     font-size: large;
     text-justify: auto;
 }
+.infoFooter {
+    font-family: "Open Sans";
+    color: white;
+    font-size: large;
+    text-justify: auto;
+}
+.subtituloFondo {
+  background-color: #013F64;
+  height: 100%;
+  width: 100%;
+}
 .subtitulo {
     text-transform: capitalize;
     font-weight: bold;
     font-size: x-large;
-}
-.espacioFooter {
-    padding-top: 40px;
-    padding-left: 60px;
+    color: rgb(255, 255, 255);
+    text-shadow: black 0.1em 0.1em 0.2em;
+    height: 100%;
+    width: 100%;
 }
 
-#owl-carousel .item img{
-    display: block;
-    width: 100%;
-    height: auto;
-}
-.owl-theme .owl-dots{
-    background: #F9F9F9 !important;  
-}
-.owl-theme .owl-dots .owl-dot span{
-    width:10px;
-    height:10px;
-    margin:5px 7px;
-    background: #32353a !important;
-    display:block;
-    -webkit-backface-visibility:visible;
-    -webkit-transition:opacity 200ms ease;
-    -moz-transition:opacity 200ms ease;
-    -ms-transition:opacity 200ms ease;
-    -o-transition:opacity 200ms ease;
-    transition:opacity 200ms ease;
-    -webkit-border-radius:30px;
-    -moz-border-radius:30px;
-    border-radius:30px;
-}
-.owl-theme .owl-nav.disabled + .owl-dots {
-    margin-top: 0px;
-}
 .dropdown-menu{
     background-color: #F9F9F9 !important;
     font-family: "Open Sans" !important;
 }
 .dropdown-menu :hover{
-    background-color:gainsboro !important;
+    background-color:#ececec !important;
     font-family: "Open Sans" !important;
 }
+
+header.masthead {
+    padding-top: 10.5rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-image: url("./../../images/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    text-shadow: black 0.1em 0.1em 0.2em;
+
+  }
+  .espacioTitle {
+    height: 50px;
+  }
+  header.masthead .masthead-subsubheading {
+    font-size: 1.5rem;
+    font-style: normal;
+    line-height: 1.5rem;
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-shadow: black 0.1em 0.1em 0.2em;
+    background-color: #013F64;
+    height: 100%;
+    width: 100%;
+  }
+  header.masthead .masthead-subheading {
+    font-size: 1.5rem;
+    font-style: normal;
+    line-height: 1.5rem;
+    margin-bottom: 25px;
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-shadow: black 0.1em 0.1em 0.2em;
+  }
+  header.masthead .masthead-heading {
+    font-size: 3.25rem;
+    font-weight: 700;
+    line-height: 3.25rem;
+    margin-bottom: 2rem;
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-shadow: black 0.1em 0.1em 0.2em;
+  }
+  
+  @media (min-width: 768px) {
+    header.masthead {
+      padding-top: 17rem;
+      padding-bottom: 12.5rem;
+    }
+    header.masthead .masthead-subheading {
+      font-size: 2.25rem;
+      line-height: 2.25rem;
+      margin-bottom: 2rem;
+    }
+    header.masthead .masthead-heading {
+      font-size: 4.5rem;
+      font-weight: 700;
+      line-height: 4.5rem;
+      margin-bottom: 4rem;
+    }
+    header.masthead .masthead-subsubheading {
+      font-size: 1.5rem;
+      line-height: 1.5rem;
+      margin-bottom: 2rem;
+    }
+  }
+
 
 
 
